@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { IListAsteroids } from "../interface/spreadSheet";
 import "../components/spreadSheet.css";
 import Table from 'react-bootstrap/Table';
