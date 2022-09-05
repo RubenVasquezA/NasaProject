@@ -1,0 +1,23 @@
+.asteroid-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    border: 1px solid black;
+    background-color: lightblue;
+    padding: 10px 10px 10px 10px;
+}
+
+.table-container{
+    margin: 20px auto;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 15px;
+    align-items: center;
+}
+
