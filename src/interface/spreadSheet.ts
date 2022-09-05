@@ -89,7 +89,3 @@ export interface IListAsteroids{
     potential_hazardous: boolean;
 }
 
-export interface INearEarthObjectsDate{
-    [index: string]: INearEarthObjects[]
-
-}
