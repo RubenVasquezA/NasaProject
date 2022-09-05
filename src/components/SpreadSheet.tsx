@@ -1,10 +1,8 @@
 import { IListAsteroids } from "../interface/spreadSheet";
-import "../components/spreadSheet.css";
+import "./SpreadSheet.css";
 import Table from 'react-bootstrap/Table';
 import "react-datepicker/dist/react-datepicker.css";
 import RowSheet from "../components/RowSheet"
-
-
 
 interface SpreadSheetProps {
     listOfAsteroids: IListAsteroids[]
