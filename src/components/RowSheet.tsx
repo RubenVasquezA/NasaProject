@@ -12,6 +12,11 @@ const RowSheet = ({ id, listOfAsteroids, closeAproachData }: RowSheetProps) => {
     const [userComment, setUserComment] = useState("");
     const [hideInput, setHideInput] = useState(false);
 
+    /**
+     * 
+     * @param e means the event 
+     * @param userInput the  input of the user
+     */
     const addCommentByEnter = (e: React.KeyboardEvent, userInput: string) => {
         if (e.key === 'Enter') {
             e.preventDefault();

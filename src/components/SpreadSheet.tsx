@@ -26,7 +26,7 @@ const SpreadSheet = ({ listOfAsteroids }: SpreadSheetProps) => {
                     </thead>
                     <tbody>
                         {listOfAsteroids.map((l, il) => l.close_approach.map((c, ic) => {
-                            return (<RowSheet id={il} listOfAsteroids={l} closeAproachData={c} />)
+                            return (<RowSheet id={ic} listOfAsteroids={l} closeAproachData={c} />)
                         })
                         )}
                     </tbody>

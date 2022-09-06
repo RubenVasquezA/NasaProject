@@ -19,6 +19,9 @@ const Asteroid = () => {
         getAsteroids()
     }, []);
 
+    /** 
+     * getAsteroids allows to make the fetch and obtain the information from the server
+    */
     async function getAsteroids() {
         try {
             axios.get(baseURL).then((response) => {
@@ -65,7 +68,7 @@ const Asteroid = () => {
             Start Date: <DatePicker selected={startDate} onChange={(date: Date) => setStartDate(date)} />
             End Date: <DatePicker selected={endDate} onChange={(date: Date) => setEndDate(date)} />
         </div>
-        {listOfAsteroids && <SpreadSheet listOfAsteroids={currentListAsteroids} />}
+        {currentListAsteroids && <SpreadSheet listOfAsteroids={currentListAsteroids} />}
         <div className='paginate-container'>
             <ReactPaginate
                 previousLabel={"<- Previous"}

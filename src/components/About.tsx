@@ -6,10 +6,17 @@ const About = () => {
         <Card className="about-card">
             <Card.Header><h3>About the project</h3></Card.Header>
             <Card.Body>
+                <span>
+                    The project is about to display information from Nasa reports:
+                    <ul>
+                        <li> https://api.nasa.gov/asteroids-neows </li>
+                        <li> https://neowsapp.com/</li>
+                    </ul>
+                </span>
                 <blockquote className="blockquote mb-0">
                     <p>
                         {' '}
-                        Completed Tasks: .{' '}
+                        Completed Tasks: {' '}
 
                     </p>
 

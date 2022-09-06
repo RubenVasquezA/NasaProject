@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
-import axios from "axios";
 import './App.css';
-import { INearEarthObjects, IListAsteroids } from "./interface/spreadSheet"
 import Header from "./components/Header";
 import Asteroid from "./components/Asteroid";
 import About from "./components/About";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
@@ -22,8 +19,8 @@ function App() {
         <Header />
       </div>
       <Routes>
-        <Route path="/" element={<Asteroid />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<About/>} />
+        <Route path="/App" element={<Asteroid  />} />
       </Routes>
     </Router>
   );

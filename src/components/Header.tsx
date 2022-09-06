@@ -10,8 +10,8 @@ function Header() {
         <Container>
           <Navbar.Brand href="/">Home</Navbar.Brand>
           <Nav>
-            <Nav.Link href="/">Nasa Project</Nav.Link>
-            <Nav.Link href="/about">About the project</Nav.Link>
+            <Nav.Link href="/App">Nasa Project</Nav.Link>
+            <Nav.Link href="/">About the project</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
